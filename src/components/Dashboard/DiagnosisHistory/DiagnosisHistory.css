@@ -1,0 +1,130 @@
+.diagnosis-history {
+  background-color: var(--panel-bg);
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px var(--shadow-color);
+  padding: 24px;
+}
+
+.diagnosis-history h2 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.chart-container {
+  background-color: #F4F0FE;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.chart-header h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.months-filter {
+  font-size: 14px;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.chart-layout {
+  display: flex;
+  gap: 24px;
+}
+
+.chart-wrapper {
+  flex: 1;
+}
+
+.chart-legend {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.legend-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.legend-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.systolic-dot { background-color: #E66FD2; }
+.diastolic-dot { background-color: #8C6FE6; }
+
+.legend-value {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.legend-status {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.legend-divider {
+  height: 1px;
+  background-color: #CBC8D4;
+  margin: 16px 0;
+}
+
+.vital-signs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.vital-card {
+  padding: 16px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.resp-rate { background-color: #E0F3FA; }
+.temp { background-color: #FFE6E9; }
+.heart-rate { background-color: #FFE2E5; }
+
+.vital-icon {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+}
+
+.vital-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.vital-value {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.vital-status {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
